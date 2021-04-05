@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'az-artifcat-test/Tailspin.SpaceGame.Web.Models'
+    publishVstsFeed: 'az-artifacts/az-artifcat-test'
     allowPackageConflicts: true
   condition: succeeded()
